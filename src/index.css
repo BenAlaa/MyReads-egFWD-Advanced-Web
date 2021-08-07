@@ -7,6 +7,36 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.app {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.primary-color-dark { color: #f57f1a }
+.primary-color-medium { color: #faa713 }
+.primary-color-light { color: #f8c46a }
+.secodary-color-dark { color: #2b1358 }
+.secodary-color-medium { color: #51397c }
+.secodary-color-medium { color: #cdb8f5 }
+
+.primary-bgcolor-dark { background-color: #f57f1a }
+.primary-bgcolor-medium { background-color: #faa713 }
+.primary-bgcolor-light { background-color: #f8c46a }
+.secodary-bgcolor-dark { background-color: #2b1358 }
+.secodary-bgcolor-medium { background-color: #51397c }
+.secodary-bgcolor-medium { background-color: #cdb8f5 }
+
+.primary-border-color-dark { border-color: #f57f1a }
+.primary-border-color-medium { border-color: #faa713 }
+.primary-border-color-light { border-color: #f8c46a }
+.secodary-border-color-dark { border-color: #2b1358 }
+.secodary-border-color-medium { border-color: #51397c }
+.secodary-border-color-medium { border-color: #cdb8f5 }
+
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
