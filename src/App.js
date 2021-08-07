@@ -1,8 +1,11 @@
+import { ToastContainer } from "react-toastify";
+import Routes from "./Routes/Routes";
 
-function App() {
+function App(props) {
   return (
-    <div className="App">
-
+    <div className="app">
+      <Routes {...props} />
+      <ToastContainer />
     </div>
   );
 }
