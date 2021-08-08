@@ -1,0 +1,36 @@
+.shelf-container{
+  width: 100%;
+  display: flex;
+  padding: 30px 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 25px;
+  margin-bottom: 30px;
+}
+.shelf-title{
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.book-container{
+  width: 15%;
+  padding: 20px;
+}
+.shelf-count{
+  background-color: #fff;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-left: 20px;
+}
