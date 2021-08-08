@@ -1,0 +1,69 @@
+.select-menu-container{
+  width: 100%;
+  position: relative;
+}
+.select-menu-btn{
+  padding: 10px;
+  color: #fff;
+  border-radius:10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s 0s ease;
+  -moz-transition: all 0.3s 0s ease;
+  -o-transition: all 0.3s 0s ease;
+  transition: all 0.3s 0s ease;
+}
+.select-menu-btn:hover {
+  background-color: #f57f1a;
+  -webkit-box-shadow: 0px 0px 22px 3px rgba(245,127,26,0.27);
+  -moz-box-shadow: 0px 0px 22px 3px rgba(245,127,26,0.27);
+  box-shadow: 0px 0px 22px 3px rgba(245,127,26,0.27);
+}
+
+.select-menu{
+  padding: 10px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 10px;
+  box-shadow: -1px 1px 14px -1px rgba(0,0,0,0.21);
+  -webkit-box-shadow: -1px 1px 14px -1px rgba(0,0,0,0.21);
+  -moz-box-shadow: -1px 1px 14px -1px rgba(0,0,0,0.21);
+  
+}
+.select-menu-hidden {
+  display: none;
+}
+.select-menu-hr {
+  margin: 0;
+  margin-bottom: 10px;
+  color: rgb(173, 171, 171)
+}
+.select-menu-option,
+.select-menu-option-selected {
+  /* width: 100%; */
+  margin-bottom: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+  -webkit-transition: all 0.3s 0s ease;
+  -moz-transition: all 0.3s 0s ease;
+  -o-transition: all 0.3s 0s ease;
+  transition: all 0.3s 0s ease;
+}
+.select-menu-option:hover,
+.select-menu-option-selected:hover {
+  background-color: #51397c;
+  color: #fff;
+}
+.select-menu-option {
+  background-color: rgba(224, 224, 224, 0.493);
+}
+.select-menu-option-selected {
+  background-color: #f57f1a;
+  color:#fff;
+}
