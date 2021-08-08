@@ -8,12 +8,12 @@ const getAll = async () => {
   return await http.get('/books');
 };
 
-const update = async (bookId, shelf) => {
-  return await http.put(`/books/${bookId}`, shelf);
+const update = async ({bookId, shelf}) => {
+  return await http.put(`/books/${bookId}`, {shelf});
 }
 
 const search = async (query) => {
-  return await http.post('/books/search', query)
+  return await http.post('/search', {query})
 }
 
 const apis = {
