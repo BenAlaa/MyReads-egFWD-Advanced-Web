@@ -3,8 +3,8 @@ import { Switch, Route, Redirect } from "react-router-dom";
 import Spinner from "../Components/Spinner/Spinner";
 
 
-const Main = lazy(() => import("../Pages/Main.page"));
-const Search = lazy(() => import("../Pages/Search.page"));
+const Main = lazy(() => import("../Pages/Main/Main.page"));
+const Search = lazy(() => import("../Pages/Search/Search.page"));
 const NotFound = lazy(() => import("../Pages/NotFound.page"));
 
 const Routes = (props) => {
@@ -12,7 +12,9 @@ const Routes = (props) => {
     <Fragment>
       <Suspense
         fallback={
-          <Spinner type="Oval" color="#f57f1a" height={100} width={100} />
+          <div className="spinner-container">
+            <Spinner type="Oval" color="#f57f1a" height={100} width={100} />
+          </div>
         }
       >
         <Switch>
