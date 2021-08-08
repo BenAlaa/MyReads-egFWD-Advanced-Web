@@ -9,10 +9,23 @@ body {
 
 .app {
   width: 100%;
-  min-height: 100vh;
+}
+.page-container {
+  /* width: 100% !important; */
+  padding: 50px 20px;
+  margin-top: 100px;
+}
+
+.spinner-container {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.hr-divider{
+  width: 100%;
+  color: rgb(179, 179, 179);
 }
 .primary-color-dark { color: #f57f1a }
 .primary-color-medium { color: #faa713 }
@@ -24,9 +37,12 @@ body {
 .primary-bgcolor-dark { background-color: #f57f1a }
 .primary-bgcolor-medium { background-color: #faa713 }
 .primary-bgcolor-light { background-color: #f8c46a }
+.primary-bgcolor-xlight { background-color: #fad6b64f }
 .secodary-bgcolor-dark { background-color: #2b1358 }
 .secodary-bgcolor-medium { background-color: #51397c }
 .secodary-bgcolor-light { background-color: #c7bbdd }
+.secodary-bgcolor-xlight { background-color: #d8caf156 }
+.secodary-bgcolor-xxlight { background-color: #e4d9f72c }
 
 .primary-border-color-dark { border-color: #f57f1a }
 .primary-border-color-medium { border-color: #faa713 }
@@ -40,4 +56,27 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.3); 
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background:  #2b1358; 
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.233); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #2b1358; 
 }
