@@ -1,3 +1,6 @@
+# MyReads-egFWD-Advanced-Web
+This is a simple web app using ReactJS to manage my reads all in one place and categorize them to main three categories: currently reading, want to read, and read
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
