@@ -74,7 +74,7 @@ const SearchPage = () => {
     mutateShelf({bookId, shelf});
   }
   return ( 
-    <div className="search-page-container">
+    <div className="page-container">
       <SearchInput backPath="/" placeholder="Enter Book Name" value={searchValue} onChange={handleSearchChange}/>
       {isLoading || isUpdateLoading ?
         <div className="spinner-container">

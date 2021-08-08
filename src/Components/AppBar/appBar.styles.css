@@ -16,10 +16,9 @@
 .logo-container{
   margin-left: 50px;
   text-decoration: none;
-  /* font-style: none; */
   color: rgb(11, 4, 51);
   font-size: 28px;
-  font-weight: bold;
+  font-weight: 500;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,4 +56,34 @@
   height: 100px;
   width: 100px;
   border-radius: 50%;
+}
+
+
+
+
+@media (max-width: 700px) {
+  .app-bar-container{ 
+    height: 80px
+  }
+  .logo-container{
+    margin-left: 0px;
+    font-size: 24px;
+  }
+  .app-bar-decoration-container {
+    height: 80px;
+    margin-right: -80px;
+  }
+  .first-decoration{
+    height: 160px;
+    width: 160px;
+  }
+  .second-decoration{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+  }
+  .third-decoration{
+    height: 80px;
+    width: 80px;
+  }
 }

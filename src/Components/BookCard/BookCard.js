@@ -13,7 +13,6 @@ const BookCard = ({id, cover="", title, authors, shelf, onShelfChange}) => {
   return ( 
     <div className="book-card-container">
       <div className="book-card-cover" style={{backgroundImage: `url(${cover})`}}></div>
-      <hr className="hr-divider"/>
       <div className="book-info-container secodary-bgcolor-xlight">
         <div className="book-title">{title}</div>
         {authors?.map((author, index) => (

@@ -4,10 +4,6 @@
   justify-content: center;
   flex-wrap: wrap;
 }
-.book-container{
-  width: 20%;
-  padding: 20px;
-}
 .add-book-link{
   width: 70px;
   height: 70px;

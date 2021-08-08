@@ -15,14 +15,17 @@
   border-radius: 10px;
   font-size: 20px;
   font-weight: 600;
+  margin-bottom: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
 }
-.book-container{
+.shelf-book-container{
   width: 15%;
-  padding: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
 }
 .shelf-count{
   background-color: #fff;
@@ -33,4 +36,54 @@
   align-items: center;
   border-radius: 5px;
   margin-left: 20px;
+}
+
+@media (max-width: 1300px) {
+  .shelf-book-container{
+    width: 22%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .shelf-book-container{
+    width: 28%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 900px) {
+  .shelf-book-container{
+    width: 30%;
+  }
+}
+
+@media (max-width: 700px) {
+  .shelf-container{
+    padding: 20px 10px;
+    border-radius: 20px;
+  }
+  .shelf-title{
+    padding: 7px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .shelf-count{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+
+  .shelf-book-container{
+    width: 45%;
+  }
+}
+
+@media (max-width: 500px) {
+  .shelf-book-container{
+    width: 100%;
+  }
 }
