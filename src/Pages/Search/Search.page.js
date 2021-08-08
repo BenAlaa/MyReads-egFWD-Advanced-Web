@@ -35,7 +35,9 @@ const SearchPage = () => {
       if(Array.isArray(books)) {
         const updatedBooks = books.map(book => ({...book, shelf: myBooksMap[book.id]}));
         setBooks(updatedBooks);
-      };
+      } else {
+        setBooks([])
+      }
     },
     onError: (err) => {
       console.log("error: ", err);
